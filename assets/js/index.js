@@ -29,17 +29,17 @@ $(document).ready(function(){
     {
       breakpoint: 1100, 
       settings: {
-        slidesToShow: 3 
+        slidesToShow:3 
       }
     },{
       breakpoint: 820,
       settings: {
-        slidesToShow: 2,
+        slidesToShow:2
       }
     },{
       breakpoint: 768,
       settings: {
-        slidesToShow: 1,
+        slidesToShow:1
       }
     }
   ]
@@ -94,10 +94,5 @@ $(document).ready(function(){
     } 
   });
 
-
-  $('.promotion-list').on('setPosition', function(){
-    var pmsliderHeight = $( '.promotion .img-area' ).height();
-    $('.promotion .slider .slick-arrow').css({'top': pmSlideHeight / 2});
-  });
 
 });
