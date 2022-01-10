@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-/* Gmarket Sans */
 @font-face {
   font-family: 'Gmarket Sans';    
   font-style: normal;    
@@ -25,17 +24,3 @@
    url('../fonts/GmarketSansLight.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
    url('../fonts/GmarketSansLight.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-
-/* 뜻 예시
-@font-face {
-  font-family: 'Gmarket Sans';   → 아래 정한 폰트를 불러올 이름지정
-  font-style: normal;    → 스타일 노멀
-  font-weight: 300;   → 폰트굵기
-   src: local('Gmarket Sans Light'), local('GmarketSans-Light'),   → 1번로컬에서 이걸로 부를거야. 1번에서 안불러와지면 2번로컬에서 불러올거라는뜻 
-   url('../fonts/GmarketSansLight.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-   url('../fonts/GmarketSansLight.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }  → 로컬에도 없다면 url로 내 파일에서 가져올거야, 라는 뜻으로 링크거는것
-
-  완료되면 'Gmarket Sans' 이걸 리셋의 폰트패밀리에 이름 넣기 끝. (''이나 "" 둘중 하나 써도됨, 그러나 하나선택했다면 모두 통일되게 쓰는게 좋음)
-*/

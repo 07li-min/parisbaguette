@@ -71,12 +71,10 @@ $(document).ready(function(){
     ]
   });
     
-  // 브랜드사이트 
   $('.cont-label').on('click', function(){
     $('.cont-list').slideToggle(400);
   });
 
-    /*모바일메뉴*/ 
   $('.toggle-menu').click(function(){
     $(this).toggleClass("active");
     $('.mob-gnb').toggleClass('active');
@@ -87,7 +85,6 @@ $(document).ready(function(){
     $('.hd .mob-gnb .dep2').toggleClass('on');
   });
 
-  // 최종
   $('.pc-gnb .dep1 > a').click(function(e){
     if(this.hash) {
       e.preventDefault();
@@ -98,7 +95,6 @@ $(document).ready(function(){
   });
 
 
-  //  promotion    
   $('.promotion-list').on('setPosition', function(){
     var pmsliderHeight = $( '.promotion .img-area' ).height();
     $('.promotion .slider .slick-arrow').css({'top': pmSlideHeight / 2});

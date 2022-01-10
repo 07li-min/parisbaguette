@@ -532,7 +532,7 @@ button {
 .ft .box .contact-list li:hover a,
 .ft .box .info-list li:hover a{text-decoration: underline;}
 .ft .box .contact-list li:nth-child(3) {font-size: 12px;}
-.ft .box .brand-list li:not(:first-child) img {height: 24px;} /* 첫번째 이미지 제외하고 높이 조절 */
+.ft .box .brand-list li:not(:first-child) img {height: 24px;}
 .ft .box .brand-list li:first-child {width: 100%;}
 .ft .box .brand-list li {
   display: inline-block;
@@ -622,7 +622,7 @@ button {
 
   /* magazine */
   .magazine .magazine-item {flex-basis: calc( (100% / 2) - 20px );}
-  .magazine .magazine-item:nth-child(n+3){display: none;}/* 3번째 이미지부터 보이지 않게 설정 */
+  .magazine .magazine-item:nth-child(n+3){display: none;}
 
 
   /*story*/
@@ -656,7 +656,7 @@ button {
 
   /* magazine */
   .magazine .magazine-item {flex-basis: calc( 100% - 20px );}
-  .magazine .magazine-item:nth-child(n+2){display: none;}/* 2번째 이미지부터 보이지 않게 설정 */
+  .magazine .magazine-item:nth-child(n+2){display: none;}
   .magazine .magazine-item .txt-area .txt-tit {font-size: 25px;}
 
   /* PROMOTION */
@@ -664,7 +664,7 @@ button {
   .promotion .list-item {flex-basis: calc(50% - 20px); margin-bottom: 20px;}
   .promotion .list-item:nth-child(n+5){display: none;}
 
-    /* ft */
+  /* ft */
   .ft .box-wrap {flex-wrap: wrap;}
   .ft .box {flex: 1 50%; margin-bottom: 50px;}
 }
